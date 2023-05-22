@@ -1,0 +1,13 @@
+create table stores(id integer primary key, name text, price integer);
+
+insert into stores values (1,"clothing",52.00);
+insert into stores values (2,"bikes",125.00);
+insert into stores values (3,"game consoles",500);
+insert into stores values (4,"cell phones",599);
+insert into stores values (5,"food items",25.00);
+
+Select * from stores
+ORDER BY price desc;
+
+select * from stores; 
+select MAX(price) from stores;
